@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.fa {
+  font-size: 30px;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(43, 42, 42);
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  height: 100vh;
+  background-color: grey;
+}
+
+.name-top {
+  color: rgb(7, 7, 7);
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+.main-nav {
+  margin-top: 2%;
+}
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav li {
+  list-style: none;
+  margin: 1%;
+  font-size: 1.7rem;
+  width: fit-content;
+  background-color: rgb(168, 168, 168);
+}

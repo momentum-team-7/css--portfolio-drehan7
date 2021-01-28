@@ -5,6 +5,11 @@
   font-family: "Mulish", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .fa {
   font-size: 30px;
   padding: 2rem;
@@ -26,7 +31,7 @@ header {
 
 main {
   height: 100vh;
-  background-color: grey;
+  background-color: #219ebc;
 }
 
 .name-top {
@@ -48,5 +53,9 @@ main {
   margin: 1%;
   font-size: 1.7rem;
   width: fit-content;
-  background-color: rgb(168, 168, 168);
+  color: rgb(199, 199, 199);
+}
+
+.main-nav li:hover {
+  opacity: 0.3;
 }
